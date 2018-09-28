@@ -1,0 +1,15 @@
+
+html {
+  height: 100%;
+}
+
+body {
+ 
+  background: linear-gradient(#cce6ff, #4da6ff);
+  font-family: arial;
+}
+
+h1
+{
+    color:navy;
+}

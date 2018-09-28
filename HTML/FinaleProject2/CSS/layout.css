@@ -1,0 +1,73 @@
+
+body{
+    background-image: url("../IMAGES/backgroud.jpg") ;
+    color : white;
+}
+.content{
+    float : right ;
+    width: 50% ;
+    overflow: scroll;
+    background-color: aquamarine;
+    color : black;
+}
+.homework{
+    background-color : rgb(37, 37, 133) ;
+    height: 250px;
+    width: 45% ;
+    margin : 20px;
+}
+.homework2{
+    background-color: rgb(238, 53, 84) ;
+    height: 250px;
+    width: 45% ;
+    margin : 20px;
+
+}
+
+.video{
+    background-color: brown;
+    width : 45% ;
+    margin : 20px ;
+    height : 300px ;
+}
+.objectives {
+    background-color: aquamarine;
+    color : black ;
+    text-align: left;
+    width : 45% ;
+    margin : 20px ;
+    overflow: scroll ;
+    height : 300px ;
+}
+header {
+    height : 400px;
+    width : 100% ;
+}
+.header h3 {
+    text-align: center;
+    animation : animatedhead 5s infinite;
+}
+@keyframes animatedhead{
+    from{
+        font-size : 15px ;
+    }to
+    {  
+      font-size : 30px;
+    }
+}
+
+footer {
+    /* margin-bottom: 10px; */
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    opacity: 0.8;
+    background-color: rgb( 22, 143, 190);
+}
+footer a{
+    color : white ;
+    opacity: 1.0 ;
+}
+

@@ -1,0 +1,101 @@
+
+.header
+{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+
+}
+
+.leftSidebar{
+   
+    width: 20%;
+    height : 300px;
+    float: left;
+    background-image: image-set();
+
+
+}
+.leftSidebar img{
+    
+    animation: animatedimage 5s infinite;
+}
+
+.rightSidebar{
+
+    width: 20%;
+    height : 300px;
+    float: right;
+    background-color: aquamarine;
+
+}
+.middlebar{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    height : 300px;
+    width : 60%; ; 
+    background-color: yellow;
+    color : black;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: scroll;
+
+}
+.middlebar p:nth-child(2){
+    font-size: 10px;
+    color: darkslategrey;
+}
+.footer
+{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    margin-bottom: 0px;
+}
+
+.leftSidebar img{
+    width : 50% ;
+    height: 300px;
+}
+
+@keyframes animatedimage{
+    from { width: 50% }
+    to{
+        width: 100%;
+    } ;
+}
+
+.header p {
+    margin-top: auto;
+    animation: animatedPara 5s infinite;
+}
+
+.rightSidebar p{
+    margin: 7px 7px 7px 7px;
+    font-weight: bold;
+}
+
+@keyframes animatedPara{
+    from{
+        color: black;
+        font-size : 10px;
+        font-weight: normal;
+    }to{
+        color: white;
+        font-size : 40px;
+        font-weight: bold;
+
+    }
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    margin: auto;
+    
+}

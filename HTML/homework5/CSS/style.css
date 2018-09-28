@@ -1,0 +1,72 @@
+.page-header{
+     background-size: cover;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+     width : 100%;
+    height: 100px;
+
+}
+
+.page-header h1{
+    animation: animatedheading 3s infinite;
+}
+
+@keyframes animatedheading{
+    from{
+        color: silver;
+        font-size: 20px;
+
+    }to {
+        color: white;
+        border: 6px solid black;
+        font-size: 40px;
+    }
+
+}
+.sidebar{
+    float: left;
+}
+
+.sidebar ul li a{
+    
+    color : navy;
+    font-size: 30px;
+   animation : animatedlist 3s infinite;
+}
+
+.sidebar ul li a:hover{
+    
+color : black;  
+}
+
+ @keyframes animatedlist{
+
+     from{
+         border: 5px solid black;
+     }
+     to{
+         border : 5px solid silver;
+     }
+}
+
+
+.carousel-inner{
+   height: 560px;
+   width : 80%;
+   margin-left: 20px;
+   border: 10px solid black;
+   margin: auto;
+}
+
+.navbar{
+    background-color: brown;
+    width: 100%;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.container-fluid ul li:hover{
+    background-color: white;
+}

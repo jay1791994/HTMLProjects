@@ -1,0 +1,34 @@
+.col-sm-12 iframe{
+    float : left ;
+    width : 50% ;
+}
+
+.navbar {
+    background-color: rgb(185, 6, 60) ;
+}
+body{
+    background-image: url("IMAGES/backgroud.jpg") ;
+    color : white;
+}
+      
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+   
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }

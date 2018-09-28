@@ -1,0 +1,47 @@
+
+table1{
+    margin : auto ;
+    align-items: center;
+}
+.tblcontent{
+    margin:30px ;
+    margin-left: 21% ;
+    width: 75%;
+    border: 1px solid;
+}
+
+.tblcontent td{
+    border: 1px solid;
+    margin-right: 1px;
+    padding: 10px ;
+}
+.tblcontent th{
+    border: 1px solid;
+    margin-right: 1px;
+    color : lime;
+}
+
+.tblcontent tr:nth-child(even){
+    background-color: pink ;
+    color : red ;
+}
+
+.tblcontent th{
+    background-color: rgb(199, 55, 79);
+}
+
+.tblcontent th:hover{
+    background-color: blue;
+    color: white;
+}
+.footer
+   {
+       width: 100%;
+       height: 100px;
+       text-align: center;
+       color: white;
+       background-color: rgb(233, 12, 85);
+       margin-bottom: 0px;
+       font-size : 30px ;
+       margin-top: 20px;
+   }

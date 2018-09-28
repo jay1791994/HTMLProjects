@@ -1,0 +1,82 @@
+body{
+    background-color: mediumspringgreen;
+}
+header{
+    padding: 1rem;
+    width: 100% ;
+    height : 80px;
+    background-color : greenyellow;
+    font-size: 40px;
+    text-align: center;
+    animation: animatedheader 5s infinite;
+}
+footer{
+   width: 100%;
+   padding: 1rem;
+    bottom: 0;
+    background-color: green ;
+    text-align: center;
+    height: 80px;
+    float: right;
+    position: absolute;
+    color: black;
+    
+}
+nav {
+    width: 300px;
+    float: left;
+    height: 250px ;
+    background-color : lawngreen ;
+}
+
+.CityContent{
+      text-align: center;
+}
+.CityContent p{
+    font: 30px;
+    font-weight: bold ;
+    color : green;
+}
+.CityContent img{
+   float: left;
+   height: 200px;
+   width: 280px;
+   border: 4px solid black;
+   top: 0 ;
+   
+   animation: animatedimage 5s infinite;
+}
+
+ul a{
+color : blue ;
+font-size: 30px;
+font-weight: bold;
+animation: animatedList 5s infinite;
+}
+
+@keyframes animatedList {
+    from{
+        font-size: 20px;
+    }
+    to {
+        font-size: 30px;
+    }
+    
+}
+
+@keyframes animatedimage {
+    from{
+        opacity: 0.5;
+      
+    }to{
+        opacity: 1.0;
+       
+    }
+}
+@keyframes animatedheader{
+    from{font-size : 20px}
+    to{
+        font-size: 45px ;
+    }
+
+}

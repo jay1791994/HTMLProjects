@@ -1,0 +1,29 @@
+.tblcontent{
+    width: 100%;
+    border: 1px solid;
+}
+
+.tblcontent td{
+    border: 1px solid;
+    margin-right: 1px;
+    color: blue;
+}
+.tblcontent th{
+    border: 1px solid;
+    margin-right: 1px;
+    color : red;
+}
+
+.tblcontent tr:nth-child(even){
+    background-color: orange;
+}
+
+.tblcontent th{
+    background-color: darkkhaki;
+}
+
+.tblcontent th:hover{
+    background-color: blue;
+    color: white;
+}
+
